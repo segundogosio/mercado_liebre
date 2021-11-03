@@ -1,0 +1,276 @@
+*{box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+header{background-color: yellow;
+    color: purple;
+    font-size: center;
+    width: 100%;
+     text-align: center;
+     padding-bottom: 4px;
+    margin: 4px, 4px;
+
+    
+}
+
+.ayuda{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: 2px;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-grow: 0.2;
+    align-self: center;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-grow: 0.2;
+    margin: auto;
+}
+
+.buscador{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    flex-wrap: wrap;
+    flex-grow: 0.2;
+    margin: auto;
+}
+
+.logo-bus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px, 5px;
+    flex-wrap: wrap;
+    flex-grow: 0.2;
+    margin: auto;
+}
+
+.comprar{
+    display: block;
+    text-align: center;
+    color:purple;
+    margin: auto;
+    width: 29%;
+
+}
+
+.navegador1{
+     color: blue;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px, 5px;
+    flex-wrap: wrap;
+    flex-grow: 0.2;
+    margin: auto;
+}
+
+.navegador2{
+    color: blue;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px, 5px;
+    flex-wrap: wrap;
+    flex-grow: 0.2;
+    margin: auto;
+
+}
+
+.indice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-grow: 0.2;
+    margin: auto;
+}
+
+.burger-menu i{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    margin: auto;
+    padding: 0.7em;
+    
+}
+
+
+.fotos{
+    width: 100%;
+    border-left: solid 10px #ebebeb;
+     border-right: solid 10px #ebebeb;
+     border-top: solid 10px #ebebeb;
+}
+
+.titulares{
+    font-size: 24px;
+    text-decoration: underline;
+        margin: auto;
+}
+
+
+
+
+.precios{
+    font-size: 18px;
+    padding: 5px;
+    margin: auto;
+}
+
+
+.descuentos{
+    font-size: 16px;
+    color: green;
+    padding: 5px;
+    margin: auto;
+}
+
+.camion{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+}
+
+.precios-descuentos{
+    background-color: white;
+    border-bottom: solid 15px #ebebeb;
+    border-right: solid 10px #ebebeb;
+    border-left: solid 10px #ebebeb;
+    margin: auto;
+    
+}
+
+
+
+.productos{
+    width: 100%;
+}
+
+
+.visitas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+
+}
+.ofertas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+}
+
+.pies{
+    font-size: 16px;
+    color: blue;
+}
+
+.loguitos{
+    color: blue;
+    margin: 10px, 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    
+}
+
+
+main{
+    width: 100%;
+    background-color: #ebebeb;
+}
+
+
+
+
+@media(max-width: 480px) {
+    header section.comprar {
+        display: none;
+    }
+
+}
+
+@media (max-width: 480px) {
+    header section.indice {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 480px) {
+    main article.productos {
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 769px) {
+    main article.productos {
+        width: 25%;
+    }
+
+}
+
+.precios-descuentos:hover .camion{
+    transition: transform 0.5s;
+    transform: rotate(-90deg);
+}
+
+
+
+
+
+
+
