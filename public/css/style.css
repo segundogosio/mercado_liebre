@@ -171,6 +171,7 @@ header{background-color: yellow;
     border-right: solid 10px #ebebeb;
     border-left: solid 10px #ebebeb;
     margin: auto;
+    position: relative;
     
 }
 
@@ -198,6 +199,7 @@ header{background-color: yellow;
 }
 
 .descripcion{
+    display: none;
     font-size: 16px;
 }
 
@@ -266,6 +268,11 @@ main{
 .precios-descuentos:hover .camion{
     transition: transform 0.5s;
     transform: rotate(-90deg);
+}
+
+.precios-descuentos:hover .descripcion{
+    display: flex;
+    
 }
 
 

@@ -8,48 +8,56 @@
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
 
 </head>
 <body>
    <header>
-
+    <ul class="logo-bus">
+        <div class="logo">
+            <img src="\images\logo-mercado-liebre.svg">
+        </div>
+    
    </header>
 
 
-   <main>
+ <main>
     <form action="/">
    
-    <div>
+    <div class="formularios">
         <label>NOMBRE Y APELLIDO:</label>
         <p>
         <input type="text" name="Nombre">
     </p>
     </div>
    
-    <div>
+    
+    <div class="formularios">
         <label>USUARIO:</label>
         <p>
         <input type="text" name="Usuario">
     </p>
     </div> 
+    
 
 
-    <div>
+    <div class="formularios">
         <label>FECHA DE NACIMIENTO:</label>
         <p>
         <input type="date" name="Fecha">
     </p>
     </div>
    
-    <div>
+    <div class="formularios">
         <label>DOMICILIO:</label>
         <p>
         <input type="text" name="Domicilio">
     </p>
 </div>
 
-
-    <p>
+    <div class="formularios">
+    <p >
         <label>QUIERE COMPRAR O VENDER ?</label>
         <select name="opciones">
             <p>
@@ -59,7 +67,7 @@
     </p>
     </div>
 
-    <div>
+    <div class="formularios">
         <label>CATEGORIAS DE INTERES:</label>
         <p>
         <label>Electro</label>
@@ -84,28 +92,28 @@
 
     </div>
 
-    <div>
+    <div class="formularios">
         <label>Seleccione una imagen</label>
         <p>
             <input type="file" name="avatar" accept="jpg">
         </p>
     </div>
 
-    <div></div>
+    <div class="formularios">
         <label>CONTRASEÑA:</label>
         <p>
         <input type="password" name="contraseña">
     </p>
     </div>
 
-    <div>
+    <div class="formularios">
         <label>CONFIRMAR CONTRASEÑA:</label>
         <p>
         <input type="password" name="confirmar">
     </p>
     </div>
 
-    <div>
+    <div class="formularios">
     <button type="submit">Enviar</button>
     <button type="reset">Borrar</button>
     </div>
@@ -113,23 +121,40 @@
 </main>
 
 <footer>
-<p>
-<div class="loguitos">
-    <i class="fas fa-credit-card"></i>
-</div>
-<div class="pies">Pagá con tarjeta o en efectivo</div>
-<p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
-    puntos de pago. ¡Y siempre es seguro!</p>
-</p>
 
-<p>
-<div class="loguitos">
-    <i class="fas fa-gift"></i>
-</div>
-<div class="pies">Envío gratis desde $ 2.500</div>
-<p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-    productos. Es un beneficio de Mercado Puntos.</p>
-</p>
+    <p>
+    <div class="loguitos">
+        <i class="fas fa-credit-card"></i>
+    </div>
+    <div class="pies">Pagá con tarjeta o en efectivo</div>
+    <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+        puntos de pago. ¡Y siempre es seguro!</p>
+    </p>
+    
+    <p>
+    <div class="loguitos">
+        <i class="fas fa-gift"></i>
+    </div>
+    <div class="pies">Envío gratis desde $ 2.500</div>
+    <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+        productos. Es un beneficio de Mercado Puntos.</p>
+    </p>
+    
+    <p>
+    <div class="loguitos">
+        <i class="fas fa-user-shield"></i>
+    </div>
+    <div class="pies">Seguridad, de principio a fin</div>
+    <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+        porque estás siempre protegid@.</p>
+    </p>
+    
+    <p>
+    <div class="pies">Copyright © 1999-2020 MercadoLiebre S.R.L.</div>
+    </p>
+
+
+
 </footer>
 
 
